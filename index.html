@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'entreprise</title>
+</head>
+<body>
+
+<form id="formulaireEntreprise">
+    Nom: <input type="text" name="nom"><br>
+    Prénom: <input type="text" name="prenom"><br>
+    Adresse e-mail: <input type="email" name="email"><br>
+    
+    Nombre de participants: 
+    <select id="participants">
+        <option value="10-20">10-20</option>
+        <option value="20-50">20-50</option>
+        <!-- Ajoutez d'autres options si nécessaire -->
+    </select><br>
+    
+    <input type="submit" value="Calculer le prix">
+</form>
+
+<p>Total à payer : <span id="prixTotal">0</span>€</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
